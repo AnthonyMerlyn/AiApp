@@ -84,7 +84,7 @@ const Demo = () => {
               >
                 <div className='copy_btn' onClick={() => handleCopy(item.url)}>
                   <img 
-                    src={copied === item.url ? tick : cory}
+                    src={copied === item.url ? tick : copy}
                     alt="copyIcon"
                     className='w-[40%] h-[40%] object-contain'
                     
